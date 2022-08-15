@@ -1,0 +1,84 @@
+* {
+   font-family: 'Roboto Slab', serif;
+  }
+
+  body {
+    margin: 0;
+    background-color: #f8f9fa;
+  }
+
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    padding-left: 10px;
+    background-color: #f8f9fa;
+  }
+
+  .nav-link.active {
+    color:green;
+  }
+
+  /* Change color on hover */
+  .navbar a:hover {
+    color: green;
+  }
+
+  /* Style the topnav links */
+  .navbar a {
+    font-size: 20px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: block;
+    color: #252525;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.35s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+  }
+
+  .navbar ul{
+    width: 100%;
+  }
+
+  
+
+@media (min-width: 992px) {
+
+  .navbar ul li{
+    transform: skew(-20deg);
+  } 
+
+  .navbar ul li a{
+    display: block;
+    transform: skew(20deg);
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .navbar ul li:not(:last-child) {
+    border-right: 1px solid #929292;
+  } 
+
+  .navbar {
+    padding-left: 50px;
+  }
+
+}
+
+  /* Style the footer */
+  footer a{
+    text-decoration: none;
+    }
+
+  .fa-envelope:link {
+    color: green;
+  }

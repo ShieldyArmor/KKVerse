@@ -1,0 +1,9 @@
+#Pics {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    p {
+    text-align: left !important;
+    }
+}
