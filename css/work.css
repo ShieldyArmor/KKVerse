@@ -36,6 +36,10 @@
     margin: auto;
   }
 
+  .reference {
+    color:#515C94;
+  }
+
 
   @media (min-width: 522px) {
 
